@@ -4,7 +4,6 @@ from threading import *
 import time
 
 rootPath = "\\\\muspfl01\Group\Public Access\Camp\Today's Menu"
-#filePath = os.path.join("C:\\","pickledFoods")
 filePath = os.path.join("pickledFoods")
 extantItems = []
 recentlyEmailed = False
@@ -16,7 +15,7 @@ def runThroughDir( extantItems, path = rootPath):
             runThroughDir(extantItems, pathName)
         else:
             if fileOrFolder in extantItems:
-                print("Already found in list...skipping.")
+                pass
             elif fileOrFolder not in extantItems:
                 print("FOUND A NEW FILE!! New item: " + pathName)
                 extantItems.append(fileOrFolder)
