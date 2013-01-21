@@ -19,7 +19,11 @@ def runThroughDir( extantItems, path = rootPath):
             elif fileOrFolder not in extantItems:
                 print("FOUND A NEW FILE!! New item: " + pathName)
                 extantItems.append(fileOrFolder)
-                os.system("ruby " + "spammer.rb " + "\""+pathName + "\"") #worlds ugliest and laziest workaround. DONT JUDGE ME
+                if "~" in fileOrFolder:
+                    print("oops just a temporary file, never mind!")
+                elif "~" not in fileOrFolder:
+                    print("Emailed!")
+                    #os.system("ruby " + "spammer.rb " + "\""+pathName + "\"") #worlds ugliest and laziest workaround. DONT JUDGE ME
 
 def getOldList():
     pickledFile = open(os.path.join("pickledFoods"), "rb")
