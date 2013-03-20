@@ -2,12 +2,14 @@ import os
 import pickle
 from threading import *
 import time
+import sys
+import datetime
 
 rootPath = "\\\\muspfl01\Group\Public Access\Camp\Today's Menu"
 filePath = os.path.join("pickledFoods")
 extantItems = []
 recentlyEmailed = False
-
+now = datetime.datetime.now()
 def runThroughDir( extantItems, path = rootPath):
     for fileOrFolder in os.listdir(path):
         pathName = os.path.join(path, fileOrFolder)
@@ -21,9 +23,12 @@ def runThroughDir( extantItems, path = rootPath):
                 extantItems.append(fileOrFolder)
                 if "~" in fileOrFolder:
                     print("oops just a temporary file, never mind!")
-                elif "~" not in fileOrFolder:
+                elif "~" not in fileOrFolder and ".docx" in fileOrFolder and str(now.day) in fileOrFolder:
                     print("Emailed!")
-                    #os.system("ruby " + "spammer.rb " + "\""+pathName + "\"") #worlds ugliest and laziest workaround. DONT JUDGE ME
+                    os.system("ruby " + "spammer.rb " + "\""+pathName + "\"") #worlds ugliest and laziest workaround. DONT JUDGE ME
+                    x = open(os.path.join("pickledFoods"), "wb")
+                    pickle.dump(extantItems, x)
+                    sys.exit()
 
 def getOldList():
     pickledFile = open(os.path.join("pickledFoods"), "rb")
@@ -33,7 +38,8 @@ def getOldList():
     return returnValue
 
 def runIt():
-    while not recentlyEmailed:
+    index = 0
+    while index < 24:
         #extantItems = []
         extantItems = getOldList()
         runThroughDir(extantItems)
@@ -44,8 +50,7 @@ def runIt():
         time.sleep(300)
 
 if __name__ == "__main__":
-    scanTimer = Timer(3.0, runIt)
-    scanTimer.start()
+    runIt()
 
 
 
