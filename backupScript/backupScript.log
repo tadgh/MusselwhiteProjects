@@ -1,0 +1,30 @@
+2013-08-09 12:36:31,147 INFO  ----> Could not find destination folder. Creating D:\meh
+2013-08-09 12:36:50,638 INFO  ----> Moved : C:\walk\vulscan.2.log
+2013-08-09 12:36:50,641 INFO  ----> Moved : C:\walk\continue.log
+2013-08-09 12:36:50,644 INFO  ----> Moved : C:\walk\actionHistory.MUSPLANDESK.sent.1.xml
+2013-08-09 12:36:50,647 INFO  ----> Moved : C:\walk\vulscan.1.log
+2013-08-09 12:37:28,016 INFO  ----> Moved : C:\walk\actionHistory.MUSPLANDESK.sent.xml
+2013-08-09 12:37:28,020 INFO  ----> Moved : C:\walk\vulscan.log
+2013-08-09 12:38:18,921 INFO  ----> Moved : C:\walk\poobuttsfml
+2013-08-09 12:38:18,944 INFO  ----> Moved : C:\walk\softmon.log
+2013-08-09 12:53:11,453 INFO  ----> Could not find destination folder. Creating D:\meh2
+2013-08-09 13:01:01,306 ERROR  ----> Failed to copy C:\walk\PerfLogs. Error:Destination path 'D:\meh2\PerfLogs' already exists
+2013-08-09 13:01:01,308 ERROR  ----> Failed to copy C:\walk\actionHistory.MUSPLANDESK.sent.2.xml. Error:Destination path 'D:\meh2\actionHistory.MUSPLANDESK.sent.2.xml' already exists
+2013-08-09 13:01:01,309 ERROR  ----> Failed to copy C:\walk\vulscan.2.log. Error:Destination path 'D:\meh2\vulscan.2.log' already exists
+2013-08-09 13:01:01,309 ERROR  ----> Failed to copy C:\walk\continue.log. Error:Destination path 'D:\meh2\continue.log' already exists
+2013-08-09 13:01:01,309 ERROR  ----> Failed to copy C:\walk\actionHistory.MUSPLANDESK.sent.1.xml. Error:Destination path 'D:\meh2\actionHistory.MUSPLANDESK.sent.1.xml' already exists
+2013-08-09 13:01:01,311 ERROR  ----> Failed to copy C:\walk\vulscan.1.log. Error:Destination path 'D:\meh2\vulscan.1.log' already exists
+2013-08-09 13:02:00,926 INFO  ----> Could not find destination folder. Creating D:\meh2
+2013-08-09 13:02:00,937 INFO  ----> C:\walk\PerfLogs	---->	D:\meh2
+2013-08-09 13:02:00,940 INFO  ----> C:\walk\actionHistory.MUSPLANDESK.sent.2.xml	---->	D:\meh2
+2013-08-09 13:02:00,941 INFO  ----> C:\walk\vulscan.2.log	---->	D:\meh2
+2013-08-09 13:02:00,944 INFO  ----> C:\walk\continue.log	---->	D:\meh2
+2013-08-09 13:02:00,946 INFO  ----> C:\walk\actionHistory.MUSPLANDESK.sent.1.xml	---->	D:\meh2
+2013-08-09 13:02:00,947 INFO  ----> C:\walk\vulscan.1.log	---->	D:\meh2
+2013-08-09 13:03:21,786 INFO  ----> Could not find destination folder. Creating D:\OKGO
+2013-08-09 13:03:22,076 INFO  ----> C:\walk\Cisco ViewMail	---->	D:\OKGO
+2013-08-09 13:03:22,078 INFO  ----> C:\walk\actionHistory.MUSPLANDESK.sent.xml	---->	D:\OKGO
+2013-08-09 13:03:22,081 INFO  ----> C:\walk\vulscan.log	---->	D:\OKGO
+2013-08-09 13:34:51,176 INFO  ----> Could not find destination folder. Creating D:\Asdasd
+2013-08-09 13:34:51,197 INFO  ----> C:\walk\softmon.log	---->	D:\Asdasd
+2013-08-09 13:34:51,302 INFO  ----> C:\walk\vulScan2	---->	D:\Asdasd
