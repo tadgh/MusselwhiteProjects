@@ -1,0 +1,9 @@
+2013-10-29 18:18:17,088 INFO GOT OLD LIST
+2013-10-29 18:18:17,405 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\2013\October 2013\October 27th Menu.docx
+2013-10-29 18:18:17,407 INFO Date found in title is: 27
+2013-10-29 18:18:17,448 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\October 28th Menu.docx
+2013-10-29 18:18:17,448 INFO Date found in title is: 28
+2013-10-29 18:18:17,450 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\October 29th Menu.docx
+2013-10-29 18:18:17,450 INFO Date found in title is: 29
+2013-10-29 18:18:18,151 INFO Emailed!
+2013-10-29 18:18:18,151 INFO Found file after 0 polling intervals. Quitting. 

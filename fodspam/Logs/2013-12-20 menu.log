@@ -1,0 +1,12 @@
+2013-12-20 09:00:05,410 INFO GOT OLD LIST
+2013-12-20 09:00:05,562 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\2013\December 2013\December 19th Menu.docx
+2013-12-20 09:00:05,562 INFO Date found in title is: 19
+2013-12-20 09:00:05,894 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\December 20th Menu.docx
+2013-12-20 09:00:05,894 INFO Date found in title is: 20
+2013-12-20 15:43:23,572 INFO GOT OLD LIST
+2013-12-20 15:43:23,717 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\2013\December 2013\December 19th Menu.docx
+2013-12-20 15:43:23,717 INFO Date found in title is: 19
+2013-12-20 15:43:24,013 INFO FOUND A NEW FILE!! New item: \\10.19.110.117\Group\Public Access\Camp\Today's Menu\December 20th Menu.docx
+2013-12-20 15:43:24,013 INFO Date found in title is: 20
+2013-12-20 15:43:31,904 INFO Emailed!
+2013-12-20 15:43:31,904 INFO Found file after 0 polling intervals. Quitting. 
